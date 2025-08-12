@@ -58,4 +58,23 @@ Stored in `/personas` and activated via Control Room.
 git clone https://github.com/BioSpark-Studios/quantum-quill  
 cd quantum-quill  
 npm install  
-npm run dev  
+npm run dev
+
+🧪 Dev Branch Highlights
+🧠 Persona scripting engine
+
+🧬 Glyph choreography sandbox
+
+📜 Scroll remix experiments
+
+🪶 Plugin slot orchestration
+
+📜 License
+Quantum Quill is dual-tier licensed:
+
+Free Tier: Compose and remix with core glyphs
+
+Studio Tier: Unlock persona scripting, plugin slots, and scroll binding See LICENSE.md for details.
+
+🌌 Credits
+Crafted by Jeremy Dickinson and the BioSpark Studios team. Forged in the mythic fires of modular creativity.
