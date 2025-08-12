@@ -1,0 +1,31 @@
+vaultmap:
+  repo: quantum-quill
+  description: Modular writing engine for scroll-bound expression and glyph overlays
+  remixable: true
+  sovereign_tiers:
+    - Free
+    - Studio
+    - Mythic
+  personas:
+    Echo Scribe:
+      role: Scroll Binder and Metadata Weaver
+      traits: [Remix Metadata, Scroll Definitions]
+    Astral Codex:
+      role: Glyph Designer and Overlay Alchemist
+      traits: [Symbolic Overlays, Trait Rendering]
+  modules:
+    - name: quill-core
+      role: Scroll parsing and persona binding
+      personas: [Echo Scribe]
+    - name: glyph-engine
+      role: Symbolic choreography and visual overlays
+      personas: [Astral Codex]
+    - name: plugin-slots
+      role: Modular injection points for creative tools
+      personas: [Vaultwarden]
+  remix_lineage:
+    enabled: true
+    scroll_format: .scroll.json
+    capsule_format: .capsule.yaml
+    lineage_tracking: true
+    remix_tokens: true
