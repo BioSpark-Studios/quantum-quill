@@ -1,0 +1,1 @@
+## license-check.plugin.md
